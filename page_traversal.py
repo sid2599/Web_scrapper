@@ -1,5 +1,4 @@
-#import requests
-from bs4 import BeautifulSoup
+#import packages
 from selenium import webdriver
 import time
 from selenium.webdriver.common.keys import Keys
@@ -14,7 +13,7 @@ db = client.reviewtest
 #Accesing drivers of firefox
 driver = webdriver.Firefox()
 
-
+#Passing the link of the main hotel list page
 driver.get('https://www.tripadvisor.in/Hotels-g60763-oa180-New_York_City_New_York-Hotels.html')
 print(driver.title)
 
