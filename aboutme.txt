@@ -1,0 +1,4 @@
+learning and testing git 
+
+Repository contains page_traversal.py which is a selenium based web scrapper to extract hotel descriptions from tripadvisor website.
+

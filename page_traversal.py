@@ -6,7 +6,7 @@ from selenium.webdriver.common.keys import Keys
 from pymongo import MongoClient
 
 #connecting to mongo client
-client = MongoClient('mongodb+srv://Hinton:asdfghjk42@mongoclusterint-jkb8r.mongodb.net/test?retryWrites=true&w=majority')
+client = MongoClient('mongodb+srv://Hinton:asdfghjk@mongoclusterint-jkb8r.mongodb.net/test?retryWrites=true&w=majority')
 
 #Creating the database
 db = client.reviewtest
